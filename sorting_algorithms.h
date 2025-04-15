@@ -48,7 +48,7 @@ class LibrarySort {
     void rebalance(std::vector<int>& array, int begin, int end);
     void insert(std::vector<int>& array, int pos, int value, int end);
 public:
-    void sort(std::vector<int> input);
+    void sort(std::vector<int>& input);
 };
 
 class TimSort {

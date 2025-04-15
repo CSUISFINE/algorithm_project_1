@@ -109,7 +109,7 @@ void LibrarySort::insert(std::vector<int>& array, int pos, int value, int end) {
     }
 }
 
-void LibrarySort::sort(std::vector<int> input) {
+void LibrarySort::sort(std::vector<int>& input) {
     int n = input.size();
     
     std::vector<int> sorted_arr(2 * n + 1, GAP);
